@@ -1,0 +1,86 @@
+* {
+  font-family: "Roboto Mono";
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 755px;
+  margin: 0 auto;
+}
+header {
+  padding: 15px;
+}
+nav a {
+  background-color: #ff764e;
+  border-radius: 10px;
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+  margin: 5px 15%;
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+  min-height: 16px;
+  vertical-align: middle;
+  font-size: 12px;
+}
+nav a:first-child {
+  background-color: #ff764e;
+  margin: 5px 3%;
+  padding: 10px 20px;
+  min-height: 36px;
+}
+nav a:nth-child(2) {
+  background-color: #5ed3eb;
+}
+nav a:last-child {
+  background-color: #ffcd69;
+  margin: 5px 3%;
+}
+main {
+  padding-top: 10px;
+}
+.main-img {
+  width: 30%;
+  display: inline-block;
+}
+.main-text {
+  width: 68%;
+  display: inline-block;
+  text-align: center;
+  vertical-align: top;
+}
+.main-img img {
+  border-radius: 80%;
+  width: 200px;
+  height: 200px;
+}
+h1 {
+  font-family: "Chelsea Market";
+}
+#tanıtım {
+  background-color: #ddb9a3;
+  color: white;
+  padding: 5px 10px;
+  margin-top: 40px;
+}
+.balon {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  margin-top: 40px;
+}
+.balon img {
+  width: 30%;
+}
+footer {
+  background-color: #f9e7dc;
+  margin-top: 40px;
+}
+footer div {
+  height: 150px;
+  background-image: url("assets/footer_img.jpg");
+}
